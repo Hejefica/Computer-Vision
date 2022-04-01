@@ -7,10 +7,6 @@ ImgRGB = cv2.cvtColor(Img, cv2.COLOR_BGR2RGB)
 
 #Image Color Samples
 Sample1 = np.array([249, 203, 183])
-Sample2 = np.array([164, 88, 54])
-Sample3 = np.array([190, 121, 79])
-Sample4 = np.array([223, 161, 124])
-Sample5 = np.array([211, 151, 108])
 Sample6 = np.array([71, 40, 32])
 
 #Defines Upper & Lower Values

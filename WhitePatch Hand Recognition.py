@@ -8,8 +8,8 @@ Shape = Img.shape
 #Image BGR Filter
 def Image_ColorFilter(Image, ImageShape, Filter):
     ColorFilter = np.zeros(ImageShape)
-    for x in range(Shape[0]): 
-        for y in range (Shape[1]):
+    for x in range(ImageShape[0]): 
+        for y in range (ImageShape[1]):
             if Filter == "Blue":
                 ColorFilter[x,y,0] = Image[x,y,0]*1
                 ColorFilter[x,y,1] = Image[x,y,1]*0.75
